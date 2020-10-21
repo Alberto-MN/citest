@@ -23,7 +23,7 @@ describe('useName specs', () => {
         result.current.setName(newName);
         });
         // Assert 
-        expect(result.current.name).toEqual('name')
+        expect(result.current.name).toEqual('name-FAIL')
     });
 
   })
